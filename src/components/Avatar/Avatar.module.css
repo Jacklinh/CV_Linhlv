@@ -1,0 +1,25 @@
+.box_avatar {
+    text-align: center;
+    padding: 40px 0;
+    background: url(../../assets/map.png) top center no-repeat;
+}
+.avatart_image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.avatart_image img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.avatar_name {
+    text-transform: uppercase;
+    padding: 20px 0 5px;
+    font-size: 112.5%;
+}
+.avatar_caption {
+    text-transform: capitalize;
+}
