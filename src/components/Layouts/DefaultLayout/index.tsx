@@ -1,6 +1,7 @@
 
 import { Layout } from 'antd';
 import MenuDefault from '../MenuDefault';
+import AboutMe from '../../AboutMe';
   
 const { Sider, Content } = Layout;
 const DefaultLayout = () => {
@@ -11,7 +12,7 @@ const DefaultLayout = () => {
             </Sider>
             <Layout>
                 <Content className='content_wrap'>
-                    Content
+                    <AboutMe />
                 </Content>
             </Layout>
         </Layout>

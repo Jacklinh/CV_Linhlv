@@ -1,0 +1,8 @@
+.sec_about {
+    background-color: var(--main-bg_opacity);
+    color: var(--main-bg);
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}

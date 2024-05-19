@@ -1,5 +1,5 @@
 
-import { UploadOutlined,UserOutlined,VideoCameraOutlined} from '@ant-design/icons';
+import { UploadOutlined,UserOutlined} from '@ant-design/icons';
 import { Menu} from 'antd';
 import Avatar from '../../Avatar';
 const MenuDefault = () => {
@@ -15,12 +15,12 @@ const MenuDefault = () => {
 					{
 					key: '1',
 					icon: <UserOutlined />,
-					label: 'nav 1',
+					label: 'About Me',
 					},
 					{
 					key: '2',
-					icon: <VideoCameraOutlined />,
-					label: 'nav 2',
+					icon: <UserOutlined />,
+					label: 'About Me',
 					},
 					{
 					key: '3',
